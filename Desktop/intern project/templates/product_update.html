@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+</head>
+<body>
+        <div> 
+            <form action="/productupdate/" method="post">
+                <label>Enter the product name:</label><br>
+                <input name="product_name" type="text"/>
+                <br><br>
+                <label>Enter Price To Update:</label><br>
+                <input name="product_price" type="text"/>
+                <br><br>
+                <input type="submit" value="Update">
+            </form>
+        </div>
+        <h4><a href = "/productlist/">View all products</a></h4>
+        <h6><a href = "/">go back to home page</a></h6>
+	<div>{{ msg }}</div>
+        </body>
+</html>
